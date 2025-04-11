@@ -12,12 +12,9 @@ body {
     text-align: center;
 }
 
-#qr-scanner video {
-    width: 100%;
-    height: auto;
-    display: block;
+#qr-scanner {
+    margin: 20px 0;
 }
-    
 
 #response-message {
     margin-top: 20px;
