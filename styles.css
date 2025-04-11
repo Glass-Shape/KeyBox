@@ -13,7 +13,7 @@ body {
 }
 
 #qr-scanner video {
-    width: 500px;
+    width: 100%;
     height: auto;
     display: block;
 }
