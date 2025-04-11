@@ -5,17 +5,15 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #bd2929;
 }
 
 #app {
     text-align: center;
 }
 
-#qr-scanner video {
-    width: 100%;
-    height: auto;
-    display: block;
+#qr-scanner {
+    margin: 20px 0;
 }
 
 #response-message {
