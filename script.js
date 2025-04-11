@@ -1,6 +1,7 @@
 // Function to handle QR code scanning
 async function setupQRScanner() {
     const video = document.createElement('video');
+    video.setAttribute('playsinline', 'true'); // Ajout de l'attribut playsinline
     const qrScannerDiv = document.getElementById('qr-scanner');
     qrScannerDiv.appendChild(video);
 
@@ -29,6 +30,7 @@ async function setupQRScanner() {
 
     scanQRCode();
 }
+
 
 // Function to display response message
 function displayResponseMessage(message) {
