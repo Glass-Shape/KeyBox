@@ -12,8 +12,10 @@ body {
     text-align: center;
 }
 
-#qr-scanner {
-    margin: 20px 0;
+#qr-scanner video {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 #response-message {
