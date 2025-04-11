@@ -22,7 +22,7 @@ async function setupQRScanner() {
                 const code = jsQR(imageData.data, imageData.width, imageData.height);
 
                 if (code) {
-                    displayResponseMessage(code.data);
+                    displayResponseMessage);
                 }
             }
             requestAnimationFrame(scanQRCode);
@@ -31,6 +31,7 @@ async function setupQRScanner() {
         scanQRCode();
     } catch (error) {
         console.error('Error accessing the camera:', error);
+        alert('Error accessing the camera: ' + error.message);
     }
 }
 
