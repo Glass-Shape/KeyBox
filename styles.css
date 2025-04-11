@@ -13,8 +13,16 @@ body {
 }
 
 #qr-scanner {
-    margin: 20px 0;
+    width: 20px 0;
 }
+
+#qr-scanner video {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    display: block;
+    margin: 0 auto; /* Center the video */
+}
+    
 
 #response-message {
     margin-top: 20px;
